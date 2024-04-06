@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: pharmacy-pos-authentication-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/authentication-microservice
+    username: postgres
+    password: Prami@3990
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: true #  to enable non-contextual LOB creation
+    show-sql: true
+  security:
+    user:
+      name: user
+      password: Prami@3990
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8090
