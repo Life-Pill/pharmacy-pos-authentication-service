@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lifepill</groupId>
-	<artifactId>authenticationservice</artifactId>
+	<artifactId>authentication-microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>authenticationservice</name>
+	<name>authentication-microservice</name>
 	<description>Authentication microservices</description>
 	<properties>
 		<java.version>17</java.version>
