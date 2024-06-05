@@ -18,7 +18,7 @@ import java.util.Date;
 @NoArgsConstructor
 public class RegisterRequestDTO {
     private long employerId;
-    private long branchId;
+    private int branchId;
     private String employerNicName;
     private String employerFirstName;
     private String employerLastName;

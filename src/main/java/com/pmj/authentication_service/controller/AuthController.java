@@ -9,6 +9,7 @@ import com.pmj.authentication_service.service.AuthService;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -24,6 +25,7 @@ import java.util.Map;
 @RequestMapping("/lifepill/v1/auth")
 @RequiredArgsConstructor
 @CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"}, allowCredentials = "true")
+@Slf4j
 public class AuthController {
 
     private final AuthService authService;
@@ -38,8 +40,10 @@ public class AuthController {
     public ResponseEntity<AuthenticationResponseDTO> register(
             @RequestBody RegisterRequestDTO registerRequest
     ) {
+        log.info("Received registration request: {}", registerRequest);
         AuthenticationResponseDTO authResponse = authService.register(registerRequest);
-        return  ResponseEntity.ok(authResponse);
+        log.info("Registration response: {}", authResponse);
+        return ResponseEntity.ok(authResponse);
     }
 
     /**
