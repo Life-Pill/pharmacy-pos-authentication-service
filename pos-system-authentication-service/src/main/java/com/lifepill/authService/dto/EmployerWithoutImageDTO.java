@@ -31,5 +31,4 @@ public class EmployerWithoutImageDTO {
     private Date dateOfBirth;
     private Role role;
     private int pin;
-    //private Order order;
 }

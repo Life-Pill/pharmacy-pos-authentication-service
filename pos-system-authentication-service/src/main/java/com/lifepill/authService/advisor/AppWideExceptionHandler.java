@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class AppWideExceptionHandler {
     @ExceptionHandler(NotFoundException.class)
     public ResponseEntity<StandardResponse> handleNotFoundException(NotFoundException e) {
-        return new ResponseEntity<StandardResponse>(
+        return new ResponseEntity<>(
                 new StandardResponse(404, "Error", e.getMessage()),
                 HttpStatus.NOT_FOUND
         );
@@ -27,9 +27,7 @@ public class AppWideExceptionHandler {
      * @return ResponseEntity with a StandardResponse containing the error details
      */
     @ExceptionHandler(DataIntegrityViolationException.class)
-    public ResponseEntity<String> handleDataIntegrityViolationException(DataIntegrityViolationException ex) {
-        // Log the exception for debugging purposes
-        ex.printStackTrace();
+    public ResponseEntity<String> handleDataIntegrityViolationException() {
 
         // Provide a meaningful error message to the client
         String errorMessage = "An error occurred while processing your request. Please try again later.";

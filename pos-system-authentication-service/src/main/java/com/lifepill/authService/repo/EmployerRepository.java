@@ -32,15 +32,6 @@ public interface EmployerRepository extends JpaRepository<Employer,Long> {
      */
     boolean existsAllByEmployerEmail(String employerEmail);
 
-/*    *//**
-     * Find all by branch list.
-     *
-     * @param branch the branch
-     * @return the list
-     *//*
-    List<Employer> findAllByBranch(Branch branch);*/
-
-
     /**
      * Find all by role list.
      *
@@ -57,13 +48,5 @@ public interface EmployerRepository extends JpaRepository<Employer,Long> {
      */
     Optional<Employer> findByEmployerEmail(String employerEmail);
 
-    /**
-     * Find by branch id and role employer.
-     *
-     * @param branchId the branch id
-     * @param role     the role
-     * @return the employer
-     */
-    Employer findByBranchIdAndRole(Long branchId, Role role);
 
 }

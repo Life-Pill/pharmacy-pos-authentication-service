@@ -21,9 +21,5 @@ public class EmployerUpdateAccountDetailsDTO {
     private String employerAddress;
     private Date dateOfBirth;
 
-//    private String cashierAddressLine1;
-//    private String cashierAddressLine2;
-//    private String cashierAddressCity;
-//    private String cashierAddressZipCode;
 
 }

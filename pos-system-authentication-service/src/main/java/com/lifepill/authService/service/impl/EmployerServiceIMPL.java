@@ -50,8 +50,6 @@ public class EmployerServiceIMPL implements EmployerService {
             throw new EntityDuplicationException("Employer already exists");
         } else {
             // Retrieve the Branch entity by its ID
-//            Branch branch = branchRepository.findById(employerDTO.getBranchId())
-//                    .orElseThrow(() -> new NotFoundException("Branch not found with ID: " + employerDTO.getBranchId()));
 
             // Map EmployerDTO to Employer entity
             Employer employer = modelMapper.map(employerDTO, Employer.class);
@@ -82,8 +80,6 @@ public class EmployerServiceIMPL implements EmployerService {
         } else {
 
             // Retrieve the Branch entity by its ID
-//            Branch branch = branchRepository.findById(employerWithoutImageDTO.getBranchId())
-//                    .orElseThrow(() -> new NotFoundException("Branch not found with ID: " + employerWithoutImageDTO.getBranchId()));
 
             // Map EmployerDTO to Employer entity
             Employer employer = modelMapper.map(employerWithoutImageDTO, Employer.class);
@@ -134,11 +130,7 @@ public class EmployerServiceIMPL implements EmployerService {
         }
 
         // If the branch ID is provided, update the branch
-        if (employerAllDetailsUpdateDTO.getBranchId() != 0) {
-           // Branch branch = branchRepository.findById(employerAllDetailsUpdateDTO.getBranchId())
-            //        .orElseThrow(() -> new NotFoundException("Branch not found with ID: " + employerAllDetailsUpdateDTO.getBranchId()));
-         //   existingEmployer.setBranch(branch);
-        }
+
 
         // Save the updated employer
         employerRepository.save(existingEmployer);
@@ -263,13 +255,7 @@ public class EmployerServiceIMPL implements EmployerService {
             employer.setEmployerBankDetails(bankDetails);
             employerRepository.save(employer);
 
-            // Prepare the DTO to return
-            EmployerWithBankDTO employerWithBankDTO = modelMapper.map(employer, EmployerWithBankDTO.class);
-
-            // set Branch ID
-           // employerWithBankDTO.setBranchId(employer.getBranch().getBranchId());
-
-            return employerWithBankDTO;
+            return modelMapper.map(employer, EmployerWithBankDTO.class);
         } else {
             throw new NotFoundException("No data found for that employer ID");
         }
@@ -289,11 +275,7 @@ public class EmployerServiceIMPL implements EmployerService {
         if (employerRepository.existsById(employerId)){
             Employer employer = employerRepository.getReferenceById(employerId);
 
-          // long branchId = employer.getBranch().getBranchId();
-            EmployerDTO employerDTO = modelMapper.map(employer, EmployerDTO.class);
-
-            //employerDTO.setBranchId(branchId);
-            return employerDTO;
+            return modelMapper.map(employer, EmployerDTO.class);
         }else {
             throw  new NotFoundException("No employer found for that id");
         }
@@ -331,7 +313,7 @@ public class EmployerServiceIMPL implements EmployerService {
 
     @Override
     public String updateEmployerBankAccountDetailsByCashierId(long employerId, EmployerUpdateBankAccountDTO employerUpdateBankAccountDTO) {
-        return "";
+        return "updated";
     }
 
     /**
@@ -346,7 +328,7 @@ public class EmployerServiceIMPL implements EmployerService {
         if (employerRepository.existsById(employerId)){
             employerRepository.deleteById(employerId);
 
-            return "deleted succesfully : "+ employerId;
+            return "deleted successfully : "+ employerId;
         }else {
             throw new NotFoundException("No employer found for that id");
         }
@@ -431,14 +413,7 @@ public class EmployerServiceIMPL implements EmployerService {
      */
     @Override
     public List<EmployerDTO> getAllEmployerByBranchId(long branchId) {
-        // Retrieve the branch by its ID
-//        Branch branch = branchRepository.findById(branchId)
-//                .orElseThrow(() -> new NotFoundException("Branch not found with ID: " + branchId));
 
-        // Retrieve all employers associated with the branch
-       // List<Employer> employers = employerRepository.findAllByBranch(branch);
-
-        // Map cashier entities to DTOs
 
         return null;
     }
@@ -507,7 +482,7 @@ public class EmployerServiceIMPL implements EmployerService {
 
         // Iterate through each employer and retrieve their bank details
         for (Employer employer : employers) {
-            EmployerBankDetails bankDetails = cashierBankDetailsRepo.findByEmployerId(employer.getEmployerId());
+       //     EmployerBankDetails bankDetails = cashierBankDetailsRepo.findByEmployerId(employer.getEmployerId());
 
             // Map the employer and bank details to DTOs by model mappers
             EmployerWithBankDTO employerWithBankDTO = modelMapper.map(employer, EmployerWithBankDTO.class);
@@ -530,15 +505,6 @@ public class EmployerServiceIMPL implements EmployerService {
         Employer employerDTO = employerRepository.findById(employerId)
                 .orElseThrow(() -> new NotFoundException("Employer not found for ID: " + employerId));
 
-        // get branch id
-        //long branchId = employerDTO.getBranch().getBranchId();
-
-        // Map the employer and bank details to DTOs
-        EmployerWithBankDTO employerWithBankDTO = modelMapper.map(employerDTO, EmployerWithBankDTO.class);
-
-        // set branch id
-        //employerWithBankDTO.setBranchId(branchId);
-
-        return employerWithBankDTO;
+        return modelMapper.map(employerDTO, EmployerWithBankDTO.class);
     }
 }

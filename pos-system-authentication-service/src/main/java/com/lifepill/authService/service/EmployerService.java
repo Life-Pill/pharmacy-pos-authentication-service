@@ -12,11 +12,10 @@ import java.util.List;
 
 public interface EmployerService {
 
-    public String saveEmployer(EmployerDTO employerDTO);
+    String saveEmployer(EmployerDTO employerDTO);
 
-    public String saveEmployerWithoutImage(EmployerWithoutImageDTO employerWithoutImageDTO);
+    String saveEmployerWithoutImage(EmployerWithoutImageDTO employerWithoutImageDTO);
 
-//    String updateEmployer(EmployerUpdateDTO employerUpdateDTO);
 
     String updateEmployer(Long cashierId, EmployerAllDetailsUpdateDTO employerAllDetailsUpdateDTO);
 

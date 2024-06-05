@@ -30,6 +30,4 @@ public class EmployerDTO {
     private Role role;
     private int pin;
     private byte[] profileImage;
-    //private Order order;
-
 }

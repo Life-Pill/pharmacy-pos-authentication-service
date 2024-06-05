@@ -11,7 +11,7 @@ import lombok.*;
 @Data
 public class EmployerUpdateDTO {
     private long employerId;
-//    private int branchId;
+    private int branchId;
     private String employerNicName;
     private String employerEmail;
     private String employerNic;

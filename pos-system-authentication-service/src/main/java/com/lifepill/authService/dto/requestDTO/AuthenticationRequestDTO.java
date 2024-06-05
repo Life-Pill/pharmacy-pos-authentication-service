@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthenticationRequestDTO {
-
     private String employerEmail;
     private String employerPassword;
 }

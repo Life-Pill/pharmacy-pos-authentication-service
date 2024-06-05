@@ -51,9 +51,6 @@ public class AuthServiceIMPL implements AuthService {
             throw new EntityDuplicationException("Employer already exists");
         } else {
             //TODO check if branch exists
-            /*Branch branch = branchRepository.findById(registerRequest.getBranchId())
-                    .orElseThrow(() -> new NotFoundException("Branch not found with ID: "
-                            + registerRequest.getBranchId()));*/
 
             // Encode the password before saving
             String encodedPassword = passwordEncoder.encode(registerRequest.getEmployerPassword());
@@ -128,27 +125,8 @@ public class AuthServiceIMPL implements AuthService {
         System.out.println("Branch ID retrieved: " + employerDTO.getBranchId());
         employerDetailsResponseDTO.setActiveStatus(true);
 
-    /*    // Set activeStatus based on whether the user is logged in or not
-        if (isLoggedIn(username)) {
-            employerDetailsResponseDTO.setActiveStatus(true);
-        } else {
-            employerDetailsResponseDTO.setActiveStatus(false);
-        }
-*/
         return employerDetailsResponseDTO;
 
     }
 
-/*    private boolean isLoggedIn(String username) {
-        // Retrieve the currently authenticated user from Spring Security context
-        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-
-        // Check if the principal is an instance of UserDetails (indicating the user is authenticated)
-        if (principal instanceof UserDetails) {
-            UserDetails userDetails = (UserDetails) principal;
-            return userDetails.getUsername().equals(username);
-        } else {
-            return false; // User is not authenticated
-        }
-    }*/
 }
