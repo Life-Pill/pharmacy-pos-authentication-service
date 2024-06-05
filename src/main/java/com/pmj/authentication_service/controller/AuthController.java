@@ -36,7 +36,7 @@ public class AuthController {
      * @param registerRequest The request body containing registration details
      * @return ResponseEntity containing the authentication response
      */
-    @PostMapping("/register")
+    @PostMapping(value = "/register",consumes = "application/json")
     public ResponseEntity<AuthenticationResponseDTO> register(
             @RequestBody RegisterRequestDTO registerRequest
     ) {

@@ -41,6 +41,7 @@ public class SecurityConfiguration {
                 .authorizeHttpRequests(req -> req
                         .requestMatchers(
                                 "/lifepill/v1/auth/**",
+                                "/lifepill/v1/auth/register",
                                 "/swagger-ui/index.html#/",
                                 "/swagger-ui.html#/",
                                 "/lifepill/v1/test/**",
