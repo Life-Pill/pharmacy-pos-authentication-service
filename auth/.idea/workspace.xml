@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33f57f25-cd78-4c4d-8e85-63b98fffa955" name="Changes" comment="supplier and supplierComp&#10;any controller, service and repository implemented" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PramithaMJ&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Orders" />
+                    <option name="lastUsedInstant" value="1716292984" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1716219660" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="mobileDev" />
+                    <option name="lastUsedInstant" value="1716219573" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="devtest" />
+                    <option name="lastUsedInstant" value="1716211555" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="managerPosDev" />
+                    <option name="lastUsedInstant" value="1716149025" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Life-Pill/pharmacy-pos-backend.git&quot;,
+    &quot;accountId&quot;: &quot;fdfa0337-c423-45bc-97dd-aca2d035a39a&quot;
+  }
+}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="proportion" value="0.44840294" />
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2dg2ODWpKZZYuSJxgfilQw24age" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Cucumber Java.Feature: auth.executor": "Run",
+    "Cucumber Java.Feature: medicine_finding.executor": "Run",
+    "Cucumber Java.Feature: supplier.executor": "Run",
+    "Cucumber Java.Scenario: Delete a non-existing supplier.executor": "Run",
+    "Cucumber Java.Scenario: Delete a supplier.executor": "Run",
+    "Cucumber Java.Scenario: Get a supplier by ID.executor": "Run",
+    "Cucumber Java.Scenario: Get all suppliers.executor": "Run",
+    "Cucumber Java.Scenario: Invalid credentials provided during authentication.executor": "Run",
+    "Cucumber Java.Scenario: Retrieve all suppliers.executor": "Run",
+    "Cucumber Java.Scenario: Save a new supplier with a duplicate email.executor": "Run",
+    "Cucumber Java.Scenario: Save a new supplier.executor": "Run",
+    "Cucumber Java.Scenario: Successful authentication.executor": "Run",
+    "Cucumber Java.Scenario: Successful registration.executor": "Run",
+    "Cucumber Java.Scenario: Successful user registration.executor": "Run",
+    "Cucumber Java.Scenario: Update a non-existing supplier.executor": "Run",
+    "Cucumber Java.Scenario: Update an existing supplier.executor": "Run",
+    "Cucumber Java.Scenario: User authenticates successfully.executor": "Run",
+    "Cucumber Java.Scenario: User authentication fails due to incorrect credentials.executor": "Run",
+    "Cucumber Java.Scenario: User registers successfully.executor": "Run",
+    "Docker.Dockerfile.executor": "Run",
+    "JUnit.AuthControllerTest,testRegister and 11 more.executor": "Run",
+    "JUnit.AuthControllerTest.executor": "Run",
+    "JUnit.AuthControllerTest.testAuthenticate_Failure.executor": "Run",
+    "JUnit.AuthControllerTest.testAuthenticate_Success.executor": "Run",
+    "JUnit.AuthControllerTest.testAuthenticationExceptionHandling.executor": "Run",
+    "JUnit.AuthControllerTest.testCookieSetOnAuthenticate.executor": "Run",
+    "JUnit.AuthControllerTest.testEmployerDetailsRetrievalOnAuthenticate.executor": "Run",
+    "JUnit.AuthControllerTest.testErrorResponseOnAuthenticate.executor": "Run",
+    "JUnit.AuthControllerTest.testInvalidCredentialsOnAuthenticate.executor": "Run",
+    "JUnit.AuthControllerTest.testRegister.executor": "Run",
+    "JUnit.AuthControllerTest.testRegisterEndpoint.executor": "Run",
+    "JUnit.AuthControllerTest.testRegister_Success.executor": "Run",
+    "JUnit.AuthControllerTest.testTest.executor": "Run",
+    "JUnit.AuthControllerTest.testTestEndpoint.executor": "Run",
+    "JUnit.BranchControllerTest.executor": "Run",
+    "JUnit.BranchControllerTest.getAllBranches.executor": "Run",
+    "JUnit.BranchControllerTest.getBranches.executor": "Run",
+    "JUnit.BranchControllerTest.saveBranch.executor": "Run",
+    "JUnit.BranchControllerTest.testGetAllBranches.executor": "Run",
+    "JUnit.BranchControllerTest.updateBranchWithoutImage.executor": "Run",
+    "JUnit.BranchControllerTest.viewImage.executor": "Run",
+    "JUnit.BranchManagerControllerTest.executor": "Run",
+    "JUnit.BranchManagerControllerTest.testGetAllCashiersByBranchId.executor": "Run",
+    "JUnit.BranchManagerControllerTest.testGetAllCashiersByBranchIdEmpty.executor": "Run",
+    "JUnit.BranchManagerControllerTest.testGetAllCashiersByBranchIdNull.executor": "Run",
+    "JUnit.BranchSummaryControllerTest.executor": "Run",
+    "JUnit.BranchSummaryControllerTest.getAllBranchesWithSales.executor": "Run",
+    "JUnit.BranchSummaryControllerTest.getBranchSalesById_ValidBranchId_ReturnsResponseEntityWithStatusOK.executor": "Run",
+    "JUnit.BranchSummaryControllerTest.testGetAllBranchesWithSales.executor": "Run",
+    "JUnit.BranchSummaryControllerTest.testGetAllPharmacySummary.executor": "Run",
+    "JUnit.BranchSummaryServiceIMPLTest.executor": "Run",
+    "JUnit.BranchSummaryServiceIMPLTest.getAllBranchesWithSales.executor": "Run",
+    "JUnit.BranchSummaryServiceIMPLTest.getBranchSalesById_ValidBranchId_ReturnsPharmacyBranchResponseDTO.executor": "Run",
+    "JUnit.BranchSummaryServiceIMPLTest.testGetAllPharmacySummary.executor": "Run",
+    "JUnit.CashierControllerTests.executor": "Run",
+    "JUnit.CashierControllerTests.testSaveCashierWithImage.executor": "Run",
+    "JUnit.CashierControllerTests.testSaveCashierWithImages.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateCashierBankAccountDetails.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateEmployerPassword_EmptyMessage.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateEmployerPassword_Failure_InvalidEmployerId.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateEmployerPassword_InvalidEmployerId.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateEmployerPassword_InvalidPasswordLength.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateEmployerPassword_NonEmptyMessage.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateRecentPin_EmptyMessage.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateRecentPin_Failure_InvalidEmployerId.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateRecentPin_InvalidEmployerId.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateRecentPin_InvalidPinLength.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateRecentPin_NonEmptyMessage.executor": "Run",
+    "JUnit.CashierControllerTests.testUpdateRecentPin_ValidDTO.executor": "Run",
+    "JUnit.CashierRepoTests.executor": "Run",
+    "JUnit.CashierRepoTests.givenCashier_whenSave_thenReturnSavedCashier.executor": "Run",
+    "JUnit.CashierRepoTests.givenNoCashiers_whenFindAll_thenReturnEmptyList.executor": "Run",
+    "JUnit.EmployerControllerTest.executor": "Run",
+    "JUnit.EmployerControllerTest.testDeleteEmployer_NotFound.executor": "Run",
+    "JUnit.EmployerControllerTest.testGetAllEmployerByActiveState_EmptyList.executor": "Run",
+    "JUnit.EmployerControllerTest.testGetEmployerById_Success.executor": "Run",
+    "JUnit.EmployerControllerTest.testGetProfilePhoto_NotFound.executor": "Run",
+    "JUnit.EmployerControllerTest.testSaveCashierWithoutImage.executor": "Run",
+    "JUnit.EmployerControllerTest.testSaveEmployer.executor": "Run",
+    "JUnit.EmployerControllerTest.testSaveEmployerWithImage_FileEmpty.executor": "Run",
+    "JUnit.EmployerControllerTest.testSaveEmployerWithImage_Success.executor": "Run",
+    "JUnit.EmployerControllerTest.testSaveEmployerWithoutImage_Failure.executor": "Run",
+    "JUnit.EmployerControllerTest.testSaveEmployerWithoutImage_Success.executor": "Run",
+    "JUnit.EmployerControllerTest.testUpdateEmployerBankAccountDetailsWithId.executor": "Run",
+    "JUnit.EmployerControllerTest.testUpdateEmployerBankAccountDetailsWithId_EmployerNotFound.executor": "Run",
+    "JUnit.EmployerControllerTest.testUpdateEmployerBankAccountDetailsWithId_Success.executor": "Run",
+    "JUnit.EmployerControllerTest.testUpdateEmployer_NotFound.executor": "Run",
+    "JUnit.EmployerControllerTests.executor": "Run",
+    "JUnit.EmployerControllerTests.testSaveEmployerWithImage_Success.executor": "Run",
+    "JUnit.EmployerControllerTests.testSaveEmployerWithoutImage_Success.executor": "Run",
+    "JUnit.EmployerRepositoryTests.givenCashier_whenSave_thenReturnSavedCashier.executor": "Run",
+    "JUnit.EmployerServiceImplTest.executor": "Run",
+    "JUnit.EmployerServiceImplTest.testGetEmployerByIdNotFound.executor": "Run",
+    "JUnit.EmployerServiceImplTest.testUpdateEmployer.executor": "Run",
+    "JUnit.EmployerServiceImplTest.testUpdateEmployerBankAccountDetails.executor": "Run",
+    "JUnit.EmployerServiceImplTest.testUpdateEmployerBankAccountDetails_EmployerExists_BankDetailsExists.executor": "Run",
+    "JUnit.EmployerServiceImplTest.testUpdateEmployerBankAccountDetails_EmployerExists_BankDetailsNotExists.executor": "Run",
+    "JUnit.EmployerServiceImplTest.testUpdateEmployerBankAccountDetails_EmployerNotExists.executor": "Run",
+    "JUnit.EmployerServiceTest.executor": "Run",
+    "JUnit.EmployerServiceTest.testGetAllEmployerByActiveState_Success.executor": "Run",
+    "JUnit.EmployerServiceTest.testSaveEmployerWithoutImage_Success.executor": "Run",
+    "JUnit.EmployerServiceTest.testSaveEmployer_Success.executor": "Run",
+    "JUnit.EmployerServiceTest.testUpdateEmployerAccountDetails_Success.executor": "Run",
+    "JUnit.ItemCategoryControllerTest.executor": "Debug",
+    "JUnit.ItemCategoryControllerTest.testDeleteCategory.executor": "Run",
+    "JUnit.ItemCategoryControllerTest.testDeleteCategory_CategoryNotFound.executor": "Run",
+    "JUnit.ItemCategoryControllerTest.testSaveCategory.executor": "Run",
+    "JUnit.ItemCategoryControllerTest.testSaveCategory_CategoryAlreadyExists.executor": "Run",
+    "JUnit.ItemCategoryControllerTest.testUpdateCategoryDetails.executor": "Run",
+    "JUnit.ItemControllerTest.executor": "Run",
+    "JUnit.ItemControllerTest.testGetItemByNameAndStock.executor": "Run",
+    "JUnit.ItemControllerTest.testSaveItemWithCategory.executor": "Run",
+    "JUnit.ItemRepositoryTest.executor": "Run",
+    "JUnit.ItemRepositoryTest.testSaveItem.executor": "Run",
+    "JUnit.ItemServiceFindServiceTest.executor": "Run",
+    "JUnit.ItemServiceFindServiceTest.testGetItemById.executor": "Run",
+    "JUnit.ItemServiceIMPLTest.executor": "Run",
+    "JUnit.ItemServiceIMPLTest.getItemByNameAndStock_ItemExists_ReturnsDTOList.executor": "Run",
+    "JUnit.ItemServiceIMPLTest.getItemByNameAndStock_ItemNotFound_ExceptionThrown.executor": "Run",
+    "JUnit.MedicineFindingControllerTest.executor": "Run",
+    "JUnit.MedicineFindingServiceIMPLTest.executor": "Run",
+    "JUnit.OrderControllerTest.executor": "Run",
+    "JUnit.OrderControllerTest.testGetAllOrdersWithDetails_Success.executor": "Run",
+    "JUnit.OrderControllerTest.testGetOrderWithDetailsById_Success.executor": "Run",
+    "JUnit.OrderControllerTest.testSaveOrder_NegativeOrderId.executor": "Run",
+    "JUnit.OrderControllerTest.testSaveOrder_NullRequest.executor": "Run",
+    "JUnit.OrderControllerTest.testSaveOrder_Success.executor": "Run",
+    "JUnit.OrderDetailsRepositoryTest.testSaveOrderDetails.executor": "Run",
+    "JUnit.OrderRepositoryTest.testSaveOrder.executor": "Run",
+    "JUnit.OrderServiceTest.executor": "Run",
+    "JUnit.OrderServiceTest.testAddOrder_ItemNotFound.executor": "Run",
+    "JUnit.OrderServiceTest.testAddOrder_UpdateItemQuantities.executor": "Run",
+    "JUnit.OrderServiceTest.testGetOrderWithDetailsById_OrderFound.executor": "Run",
+    "JUnit.OrderServiceTest.testGetOrderWithDetailsById_OrderNotFound.executor": "Run",
+    "JUnit.OwnerControllerTest.executor": "Run",
+    "JUnit.OwnerControllerTest.testGetAllEmployerByRole_InvalidRole.executor": "Run",
+    "JUnit.OwnerControllerTest.testGetAllEmployerByRole_NullOwnerList.executor": "Run",
+    "JUnit.OwnerControllerTest.testGetAllEmployerByRole_NullRole.executor": "Run",
+    "JUnit.OwnerControllerTest.testGetAllEmployerByRole_NullServiceResponse.executor": "Run",
+    "JUnit.PosSystemApplicationTests.contextLoads.executor": "Run",
+    "JUnit.PosSystemApplicationTests.executor": "Run",
+    "JUnit.SupplierCompanyControllerTest.executor": "Run",
+    "JUnit.SupplierCompanyServiceIMPLTest.executor": "Run",
+    "JUnit.SupplierCompanyServiceIMPLTest.testUpdateSupplierCompanyById.executor": "Run",
+    "JUnit.SupplierControllerTest.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testDeleteSupplierByIdNotFound.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testDeleteSupplierByIdSuccessful.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testGetSupplierByCompanyIdNotFound.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testGetSupplierByCompanyIdSuccessful.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testGetSupplierByIdNotFound.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testGetSupplierByIdSuccessful.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testSaveSupplierCompanyNotFound.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testSaveSupplierDuplicateId.executor": "Run",
+    "JUnit.SupplierServiceIMPLTest.testUpdateSupplierByIdNotFound.executor": "Run",
+    "Maven.pos-system [compile].executor": "Run",
+    "Maven.pos-system [install].executor": "Run",
+    "Maven.pos-system [test].executor": "Run",
+    "Maven.pos-system [validate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AuthServiceApplication.executor": "Run",
+    "Spring Boot.PosSystemApplication.executor": "Run",
+    "com.google.cloudcode.ide_session_index": "20240606_0000",
+    "extract.method.default.visibility": "private",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/pramithajayasooriya/Desktop/LIFEPILL/Life-Pill-POS/pharmacy-pos-backend/pos-system/src/main/java/com/lifepill/possystem/service/impl",
+    "last_opened_file_path": "/Users/pramithajayasooriya/Desktop/LIFEPILL/Life-Pill-POS/pharmacy-pos-backend/pos-system",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="QodanaCIConfigService">
+    <option name="ciType" value="JENKINS" />
+    <option name="path" value="$PROJECT_DIR$/Jenkinsfile" />
+  </component>
+  <component name="QodanaProblemsViewState">
+    <option name="showBaselineProblems" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription path="$PROJECT_DIR$/qodana.sarif.json" reportGuid="a23afc50-8f59-4aba-8c9f-a7b8d6a24dd7" reportId="pos-system/qodana/2024-05-19" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lifepill.possystem.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lifepill.possystem.util.mappers" />
+      <recent name="com.lifepill.possystem.service" />
+      <recent name="com.lifepill.possystem.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lifepill.possystem.dto.requestDTO.CashierUpdate" />
+      <recent name="com.lifepill.possystem.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
+    <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pos-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lifepill.authService.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lifepill.possystem.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.lifepill.possystem.controller.OrderControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.testGetOrderWithDetailsById_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pos-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lifepill.authService.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lifepill.possystem.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.lifepill.possystem.controller.OrderControllerTest" />
+      <option name="METHOD_NAME" value="testGetOrderWithDetailsById_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pos-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lifepill.authService.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lifepill.possystem.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lifepill.possystem.service.OrderServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.testGetOrderWithDetailsById_OrderFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pos-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lifepill.authService.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lifepill.possystem.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lifepill.possystem.service.OrderServiceTest" />
+      <option name="METHOD_NAME" value="testGetOrderWithDetailsById_OrderFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.testGetOrderWithDetailsById_OrderNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pos-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lifepill.authService.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lifepill.possystem.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lifepill.possystem.service.OrderServiceTest" />
+      <option name="METHOD_NAME" value="testGetOrderWithDetailsById_OrderNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="pos-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lifepill.authService.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderControllerTest.testGetOrderWithDetailsById_Success" />
+        <item itemvalue="JUnit.OrderControllerTest" />
+        <item itemvalue="JUnit.OrderServiceTest.testGetOrderWithDetailsById_OrderFound" />
+        <item itemvalue="JUnit.OrderServiceTest.testGetOrderWithDetailsById_OrderNotFound" />
+        <item itemvalue="JUnit.OrderServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33f57f25-cd78-4c4d-8e85-63b98fffa955" name="Changes" comment="" />
+      <created>1710415366324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710415366324</updated>
+      <workItem from="1710415367560" duration="1016000" />
+      <workItem from="1710491206952" duration="476000" />
+      <workItem from="1710591674070" duration="30000" />
+      <workItem from="1710830670425" duration="638000" />
+      <workItem from="1711081374405" duration="5000" />
+      <workItem from="1711083937864" duration="691000" />
+      <workItem from="1711173302457" duration="9782000" />
+      <workItem from="1711209779936" duration="3824000" />
+      <workItem from="1711228969921" duration="1859000" />
+      <workItem from="1711232620531" duration="306000" />
+      <workItem from="1711255557812" duration="845000" />
+      <workItem from="1711256450032" duration="1360000" />
+      <workItem from="1711258738979" duration="1182000" />
+      <workItem from="1711337701121" duration="2995000" />
+      <workItem from="1711463187075" duration="819000" />
+      <workItem from="1711603641801" duration="33000" />
+      <workItem from="1711695739180" duration="10334000" />
+      <workItem from="1711782682292" duration="19995000" />
+      <workItem from="1711855745263" duration="618000" />
+      <workItem from="1711856373241" duration="81000" />
+      <workItem from="1711856462069" duration="12247000" />
+      <workItem from="1711878478516" duration="7866000" />
+      <workItem from="1711924736559" duration="432000" />
+      <workItem from="1711943300446" duration="175000" />
+      <workItem from="1711943484188" duration="7556000" />
+      <workItem from="1712034093383" duration="2841000" />
+      <workItem from="1712046407649" duration="1002000" />
+      <workItem from="1712232625788" duration="7474000" />
+      <workItem from="1712254433476" duration="5582000" />
+      <workItem from="1712298792777" duration="302000" />
+      <workItem from="1712310112882" duration="1394000" />
+      <workItem from="1712314196354" duration="419000" />
+      <workItem from="1712341135200" duration="7113000" />
+      <workItem from="1712400870510" duration="118000" />
+      <workItem from="1712410058662" duration="1256000" />
+      <workItem from="1712546847889" duration="5785000" />
+      <workItem from="1712852420836" duration="187000" />
+      <workItem from="1712911735776" duration="367000" />
+      <workItem from="1712912206460" duration="431000" />
+      <workItem from="1712912962230" duration="214000" />
+      <workItem from="1712913547716" duration="80000" />
+      <workItem from="1712913635366" duration="1092000" />
+      <workItem from="1712950778702" duration="3032000" />
+      <workItem from="1712996444842" duration="17348000" />
+      <workItem from="1713018726415" duration="3429000" />
+      <workItem from="1713063735092" duration="31000" />
+      <workItem from="1713063872810" duration="14459000" />
+      <workItem from="1713158445478" duration="206000" />
+      <workItem from="1713843773482" duration="27163000" />
+      <workItem from="1713903015007" duration="694000" />
+      <workItem from="1713903884146" duration="801000" />
+      <workItem from="1713985092635" duration="4657000" />
+      <workItem from="1714031730069" duration="223000" />
+      <workItem from="1714032232998" duration="29268000" />
+      <workItem from="1714070086689" duration="3188000" />
+      <workItem from="1714144691017" duration="11427000" />
+      <workItem from="1714186589616" duration="5077000" />
+      <workItem from="1714195559278" duration="14324000" />
+      <workItem from="1714228085580" duration="4130000" />
+      <workItem from="1714233279075" duration="11416000" />
+      <workItem from="1714280740724" duration="3862000" />
+      <workItem from="1714294136435" duration="3252000" />
+      <workItem from="1714322927498" duration="5312000" />
+      <workItem from="1714381371346" duration="1090000" />
+      <workItem from="1714389680718" duration="669000" />
+      <workItem from="1714654955757" duration="3456000" />
+      <workItem from="1714701443828" duration="3518000" />
+      <workItem from="1714705600469" duration="1242000" />
+      <workItem from="1714707719523" duration="55000" />
+      <workItem from="1714713211300" duration="1051000" />
+      <workItem from="1714719507557" duration="1194000" />
+      <workItem from="1714737491507" duration="2429000" />
+      <workItem from="1714784554994" duration="1290000" />
+      <workItem from="1714791525266" duration="4514000" />
+      <workItem from="1714801818570" duration="7000" />
+      <workItem from="1714925352892" duration="1224000" />
+      <workItem from="1715019262397" duration="2880000" />
+      <workItem from="1715024473955" duration="2824000" />
+      <workItem from="1715057796963" duration="11000" />
+      <workItem from="1715063358659" duration="565000" />
+      <workItem from="1715065831127" duration="2410000" />
+      <workItem from="1715225095218" duration="18105000" />
+      <workItem from="1715274546190" duration="7139000" />
+      <workItem from="1715348998285" duration="284000" />
+      <workItem from="1715349292555" duration="954000" />
+      <workItem from="1715401783591" duration="3116000" />
+      <workItem from="1715408031832" duration="1347000" />
+      <workItem from="1715430679539" duration="1673000" />
+      <workItem from="1715435606254" duration="4584000" />
+      <workItem from="1715447154825" duration="1154000" />
+      <workItem from="1715448580246" duration="187000" />
+      <workItem from="1715450227078" duration="3599000" />
+      <workItem from="1715458167494" duration="4851000" />
+      <workItem from="1715463979765" duration="1502000" />
+      <workItem from="1715484779406" duration="2539000" />
+      <workItem from="1715487388806" duration="3594000" />
+      <workItem from="1715527344371" duration="1193000" />
+      <workItem from="1715548841276" duration="798000" />
+      <workItem from="1715553838433" duration="548000" />
+      <workItem from="1715620935195" duration="988000" />
+      <workItem from="1715664405577" duration="5584000" />
+      <workItem from="1715780825090" duration="11276000" />
+      <workItem from="1715796047137" duration="8083000" />
+      <workItem from="1715999814337" duration="2000" />
+      <workItem from="1716003564494" duration="7845000" />
+      <workItem from="1716033346693" duration="14028000" />
+      <workItem from="1716064198541" duration="3513000" />
+      <workItem from="1716088285727" duration="105000" />
+      <workItem from="1716088581228" duration="1447000" />
+      <workItem from="1716092418976" duration="260000" />
+      <workItem from="1716094909388" duration="19405000" />
+      <workItem from="1716160306778" duration="2238000" />
+      <workItem from="1716162551576" duration="1324000" />
+      <workItem from="1716185655311" duration="5546000" />
+      <workItem from="1716197865623" duration="17016000" />
+      <workItem from="1716218992139" duration="1153000" />
+      <workItem from="1716220150121" duration="2276000" />
+      <workItem from="1716285981033" duration="10068000" />
+      <workItem from="1716373038288" duration="901000" />
+      <workItem from="1716451919264" duration="33000" />
+      <workItem from="1716532011086" duration="10000" />
+      <workItem from="1716541844452" duration="41000" />
+      <workItem from="1716547038910" duration="3460000" />
+      <workItem from="1716752683465" duration="359000" />
+      <workItem from="1716831329758" duration="4882000" />
+      <workItem from="1717059434725" duration="3888000" />
+      <workItem from="1717129074886" duration="623000" />
+      <workItem from="1717143673605" duration="652000" />
+      <workItem from="1717214183929" duration="1503000" />
+      <workItem from="1717328054987" duration="14783000" />
+      <workItem from="1717398218951" duration="6563000" />
+      <workItem from="1717422311235" duration="6000" />
+      <workItem from="1717423547703" duration="112000" />
+      <workItem from="1717424721736" duration="3603000" />
+      <workItem from="1717491844478" duration="11353000" />
+      <workItem from="1717589122578" duration="1152000" />
+      <workItem from="1717618966347" duration="2045000" />
+    </task>
+    <task id="LOCAL-00001" summary="update category bugs">
+      <option name="closed" value="true" />
+      <created>1711805803200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711805803200</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update category bugs">
+      <option name="closed" value="true" />
+      <created>1711855518143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711855518143</updated>
+    </task>
+    <task id="LOCAL-00003" summary="supplier and supplierComp&#10;any controller, service and repository implemented">
+      <option name="closed" value="true" />
+      <created>1711882082144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711882082145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="executable:terraform" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.feature" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update category bugs" />
+    <MESSAGE value="supplier and supplierComp&#10;any controller, service and repository implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="supplier and supplierComp&#10;any controller, service and repository implemented" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.lifepill.possystem.service.impl.BranchSummaryServiceIMPL" memberName="branchRepository" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pos_system$PosSystemApplicationTests.ic" NAME="PosSystemApplicationTests Coverage Results" MODIFIED="1716218556443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lifepill.possystem.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pos_system$BranchSummaryServiceIMPLTest_getAllBranchesWithSales.ic" NAME="BranchSummaryServiceIMPLTest.getAllBranchesWithSales Coverage Results" MODIFIED="1714195406097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lifepill.possystem.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>
